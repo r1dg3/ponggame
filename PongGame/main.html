@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=
+    "width=device-width, initial-scale=1.0">
+  <title>Pong Game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo.png">
+  <!-- In this section, the css link of the page, the name of the page, the logo of the page and its features are specified. -->
+</head>
+<!-- This is the main part of the page. The divisions whose properties are selected in the css file are here, as well as the javascript link. -->
+<body style="background-image:url('img/Pong1.jpg'); background-repeat: no-repeat; background-attachment: fixed;   background-size: cover;
+" onload="loadSaveScores()">
+<div class="board">
+    <div class='ball'>
+      <div class="ball_effect"></div>
+    </div>
+    <div class="stick_1 stick"></div>
+    <div class="stick_2 stick"></div>
+    <h1 class="player_1_score">0</h1>
+    <h1 class="player_2_score">0</h1>
+    <h1 class="message">
+      Press Enter to Play Pong
+    </h1>
+</div>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
